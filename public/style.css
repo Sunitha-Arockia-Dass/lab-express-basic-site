@@ -1,0 +1,78 @@
+body{
+    background-color: pink;
+   }
+#home-page .nav-bar,#about-page .nav-bar,#work-page .nav-bar, #gallery-page .nav-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5em;
+   
+    background-color: #9b767d;
+    height:50px;
+}
+#home-page .nav-bar a,#about-page .nav-bar a,#work-page .nav-bar a,#gallery-page .nav-bar a{
+text-decoration: none;
+padding-top: 10px;
+color:purple;
+}
+
+#home-page img,#about-page img,#work-page img  {
+    height: 85vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home-page .content,#about-page .content, #work-page .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about-page .content .text, #work-page .content .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:50px;
+}
+#home-page .content h1{
+    font-size: 3em;
+    color: purple;
+    text-align: center;
+    font-family: cursive;
+    
+}
+#home-page .content-image{
+    width:40%
+}
+#home-page .content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:72px;
+    width:60%
+
+}
+#home-page h1,#about-page h1, #work-page h1 {
+    font-size: 3em;
+    color: purple;
+    text-align: center;
+    font-family: cursive;
+}
+#home-page h2,#about-page h2, #work-page h2{
+    font-size: 3em;
+    color: purple;
+    text-align: center;
+    font-family: cursive;
+}
+#about-page h2, #work-page h2{
+    margin-top: 50%;
+}
+.type{
+    display:flex;
+    flex-wrap: wrap;
+}
+.type img{
+    width: 25%;
+    height: 25%;
+    margin:30px 50px;
+}

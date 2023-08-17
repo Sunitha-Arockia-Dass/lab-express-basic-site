@@ -1,0 +1,14 @@
+/* Styles for the page content */
+.page-content {
+    padding: 20px;
+}
+
+/* Styles for the dialog container */
+.dialog {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
